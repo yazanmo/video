@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.parent {
+  position: fixed;
+  bottom: 20%;
+  background: rgba(182, 175, 175, 0.692);
+  color: #000000;
+  width: 40%;
+  padding: 20px;
+}
+
+.parent p{
+  color: rgb(49, 45, 45);
+  text-align: center;
+}
+
+.btn{
+  width: 190px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgb(49, 45, 45);
+  align-items: center;
+  margin-left: 30%;
+  color: #fff;
+}
+
